@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient( to top,#007bff, white) ;
+    font-family: Arial, sans-serif;
+    
+}
+
+.logo{
+    display: block;
+    max-width: 150px;
+    padding: 10px;
+
+}
+.container{
+    margin: auto;
+    padding: 0;
+    max-width: 900px;
+    margin-bottom: 50px;
+}
+h1{
+    color:#071e37;
+    text-align: center;
+    
+}
+.defination,.example{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 5px 7px 7px rgba(14, 13, 13, 0.1);
+    border-radius: 10px;
+}
+.defination h2,.example h2{
+    color:#007bff;
+    text-align: center;
+}
+.example {
+    background-color: #f5f5f5;
+}
+.license{
+    margin-top: 50px;
+    text-align: center;
+    font-family: serif;
+    font-size: 12px;
+}
+.images:hover{
+    margin-left: 400px;
+}
+.defination:hover,.example:hover{
+    background-color: rgb(183, 178, 178);
+}
+.defination:focas, .example:focas{
+    background-color: rgb(183, 178, 178);
+}
+.logo:hover{
+    scale: 1.4;
+}
+.defination p,.example p{
+    text-align:justify;
+}
